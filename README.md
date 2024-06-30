@@ -18,6 +18,7 @@ local Page1 = Instance.new("Frame")
 local MAINTENCE_2 = Instance.new("Frame")
 local UICorner_3 = Instance.new("UICorner")
 local TextLabel = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
 local Minimize = Instance.new("ImageButton")
 local TextButton = Instance.new("TextButton")
 local UICorner_4 = Instance.new("UICorner")
@@ -47,6 +48,7 @@ Mainframe.Size = UDim2.new(0, 336, 0, 208)
 DropShadowHolder.Name = "DropShadowHolder"
 DropShadowHolder.Parent = Mainframe
 DropShadowHolder.BackgroundTransparency = 1.000
+DropShadowHolder.BorderColor3 = Color3.fromRGB(27, 42, 53)
 DropShadowHolder.BorderSizePixel = 0
 DropShadowHolder.Position = UDim2.new(-0.00970873795, 0, -0.00819672085, 0)
 DropShadowHolder.Size = UDim2.new(1.0226537, 0, 1.01639342, 0)
@@ -56,6 +58,7 @@ DropShadow.Name = "DropShadow"
 DropShadow.Parent = DropShadowHolder
 DropShadow.AnchorPoint = Vector2.new(0.5, 0.5)
 DropShadow.BackgroundTransparency = 1.000
+DropShadow.BorderColor3 = Color3.fromRGB(27, 42, 53)
 DropShadow.BorderSizePixel = 0
 DropShadow.Position = UDim2.new(0.5, 0, 0.5, 0)
 DropShadow.Size = UDim2.new(1, 47, 1, 47)
@@ -141,19 +144,34 @@ TextLabel.BackgroundTransparency = 1.000
 TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel.BorderSizePixel = 0
 TextLabel.Position = UDim2.new(0.0127797481, 0, 0.0405406468, 0)
-TextLabel.Size = UDim2.new(0, 303, 0, 91)
+TextLabel.Size = UDim2.new(0, 303, 0, 18)
 TextLabel.Font = Enum.Font.SourceSansSemibold
-TextLabel.Text = "THIS SCRIPT DOESNT SUPPORT SOLARA currently the only game supported for solara is gym league you can get the supported loadstring for solara in our discord server in the #scripts channel if your using solara if your not using solara just close this notification"
+TextLabel.Text = "THIS SCRIPT DOES NOT SUPPORT SOLARA"
 TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel.TextSize = 15.000
 TextLabel.TextWrapped = true
 TextLabel.TextYAlignment = Enum.TextYAlignment.Top
+
+TextLabel_2.Parent = MAINTENCE_2
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Position = UDim2.new(0.0127797481, 0, 0.155925259, 0)
+TextLabel_2.Size = UDim2.new(0, 303, 0, 83)
+TextLabel_2.Font = Enum.Font.SourceSansSemibold
+TextLabel_2.Text = "There is a solara support loadstring in our discord however it only supports gym league, project smash you can get the solara loadstring in our server if your not using solara please close this notification"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextSize = 15.000
+TextLabel_2.TextWrapped = true
+TextLabel_2.TextYAlignment = Enum.TextYAlignment.Top
 
 Minimize.Name = "Minimize"
 Minimize.Parent = Draggable
 Minimize.Active = false
 Minimize.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Minimize.BackgroundTransparency = 1.000
+Minimize.BorderColor3 = Color3.fromRGB(27, 42, 53)
 Minimize.Position = UDim2.new(0.936248362, 0, 0.0929724127, 0)
 Minimize.Selectable = false
 Minimize.Size = UDim2.new(0, 19, 0, 19)
@@ -174,7 +192,7 @@ UICorner_4.Parent = TextButton
 
 -- Scripts:
 
-local function ONDI_fake_script() -- Minimize.LocalScript 
+local function XPDNB_fake_script() -- Minimize.LocalScript 
 	local script = Instance.new('LocalScript', Minimize)
 
 	script.Parent.MouseButton1Down:connect(function()
@@ -185,8 +203,8 @@ local function ONDI_fake_script() -- Minimize.LocalScript
 	
 	end)
 end
-coroutine.wrap(ONDI_fake_script)()
-local function NCKOUNI_fake_script() -- Draggable.drag 
+coroutine.wrap(XPDNB_fake_script)()
+local function TCVHYZ_fake_script() -- Draggable.drag 
 	local script = Instance.new('LocalScript', Draggable)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -243,12 +261,12 @@ local function NCKOUNI_fake_script() -- Draggable.drag
 	
 	runService.Heartbeat:Connect(Update)
 end
-coroutine.wrap(NCKOUNI_fake_script)()
-local function UOFRR_fake_script() -- TextButton.LocalScript 
+coroutine.wrap(TCVHYZ_fake_script)()
+local function QBAFCQ_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		setclipboard('https://discord.gg/sdCSmXRjuX')
 	end)
 end
-coroutine.wrap(UOFRR_fake_script)()
+coroutine.wrap(QBAFCQ_fake_script)()

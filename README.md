@@ -160,7 +160,7 @@ TextLabel_2.BorderSizePixel = 0
 TextLabel_2.Position = UDim2.new(0.0127797481, 0, 0.155925259, 0)
 TextLabel_2.Size = UDim2.new(0, 303, 0, 83)
 TextLabel_2.Font = Enum.Font.SourceSansSemibold
-TextLabel_2.Text = "There is a solara support loadstring in our discord however it only supports gym league, project smash you can get the solara loadstring in our server if your not using solara please close this notification"
+TextLabel_2.Text = "This loadstring does not support solara how ever we do have a different loadstring for solara support in our discord but its on certain games which you can check in our server #status and get the solara support script in #scripts"
 TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_2.TextSize = 15.000
 TextLabel_2.TextWrapped = true
@@ -192,7 +192,7 @@ UICorner_4.Parent = TextButton
 
 -- Scripts:
 
-local function XPDNB_fake_script() -- Minimize.LocalScript 
+local function YIET_fake_script() -- Minimize.LocalScript 
 	local script = Instance.new('LocalScript', Minimize)
 
 	script.Parent.MouseButton1Down:connect(function()
@@ -203,8 +203,8 @@ local function XPDNB_fake_script() -- Minimize.LocalScript
 	
 	end)
 end
-coroutine.wrap(XPDNB_fake_script)()
-local function TCVHYZ_fake_script() -- Draggable.drag 
+coroutine.wrap(YIET_fake_script)()
+local function CKLTPF_fake_script() -- Draggable.drag 
 	local script = Instance.new('LocalScript', Draggable)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -261,12 +261,12 @@ local function TCVHYZ_fake_script() -- Draggable.drag
 	
 	runService.Heartbeat:Connect(Update)
 end
-coroutine.wrap(TCVHYZ_fake_script)()
-local function QBAFCQ_fake_script() -- TextButton.LocalScript 
+coroutine.wrap(CKLTPF_fake_script)()
+local function RVJLWK_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		setclipboard('https://discord.gg/sdCSmXRjuX')
 	end)
 end
-coroutine.wrap(QBAFCQ_fake_script)()
+coroutine.wrap(RVJLWK_fake_script)()

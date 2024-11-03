@@ -18,7 +18,6 @@ local Page1 = Instance.new("Frame")
 local MAINTENCE_2 = Instance.new("Frame")
 local UICorner_3 = Instance.new("UICorner")
 local TextLabel = Instance.new("TextLabel")
-local TextLabel_2 = Instance.new("TextLabel")
 local Minimize = Instance.new("ImageButton")
 local TextButton = Instance.new("TextButton")
 local UICorner_4 = Instance.new("UICorner")
@@ -43,7 +42,7 @@ Mainframe.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
 Mainframe.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Mainframe.BorderSizePixel = 0
 Mainframe.Position = UDim2.new(-0.00966519397, 0, -0.00736206071, 0)
-Mainframe.Size = UDim2.new(0, 336, 0, 208)
+Mainframe.Size = UDim2.new(0, 336, 0, 158)
 
 DropShadowHolder.Name = "DropShadowHolder"
 DropShadowHolder.Parent = Mainframe
@@ -99,7 +98,7 @@ Lightuxname.BorderSizePixel = 0
 Lightuxname.Position = UDim2.new(0.0385098271, 0, 0.013147627, 0)
 Lightuxname.Size = UDim2.new(0, 55, 0, 29)
 Lightuxname.Font = Enum.Font.SourceSansBold
-Lightuxname.Text = "Lightux │"
+Lightuxname.Text = "Elysium   |"
 Lightuxname.TextColor3 = Color3.fromRGB(255, 255, 255)
 Lightuxname.TextSize = 14.000
 Lightuxname.TextXAlignment = Enum.TextXAlignment.Left
@@ -110,8 +109,8 @@ GameName.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 GameName.BackgroundTransparency = 1.000
 GameName.BorderColor3 = Color3.fromRGB(0, 0, 0)
 GameName.BorderSizePixel = 0
-GameName.Position = UDim2.new(0.216999993, 0, 0.0130000003, 0)
-GameName.Size = UDim2.new(0, 175, 0, 29)
+GameName.Position = UDim2.new(0.202200204, 0, 0.0130004883, 0)
+GameName.Size = UDim2.new(0, 179, 0, 29)
 GameName.Font = Enum.Font.SourceSansBold
 GameName.Text = "READ"
 GameName.TextColor3 = Color3.fromRGB(47, 148, 255)
@@ -132,8 +131,8 @@ MAINTENCE_2.Parent = Page1
 MAINTENCE_2.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
 MAINTENCE_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
 MAINTENCE_2.BorderSizePixel = 0
-MAINTENCE_2.Position = UDim2.new(0.0325575322, 0, 0.0196721312, 0)
-MAINTENCE_2.Size = UDim2.new(0, 313, 0, 156)
+MAINTENCE_2.Position = UDim2.new(0.0355337225, 0, 0.0360655747, 0)
+MAINTENCE_2.Size = UDim2.new(0, 313, 0, 107)
 
 UICorner_3.CornerRadius = UDim.new(0, 4)
 UICorner_3.Parent = MAINTENCE_2
@@ -143,28 +142,14 @@ TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel.BackgroundTransparency = 1.000
 TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel.BorderSizePixel = 0
-TextLabel.Position = UDim2.new(0.0127797481, 0, 0.0405406468, 0)
-TextLabel.Size = UDim2.new(0, 303, 0, 18)
+TextLabel.Position = UDim2.new(0.0127797481, 0, 0.0549030788, 0)
+TextLabel.Size = UDim2.new(0, 303, 0, 98)
 TextLabel.Font = Enum.Font.SourceSansSemibold
-TextLabel.Text = "THIS SCRIPT DOES NOT SUPPORT SOLARA"
+TextLabel.Text = "Purchase the script in our in discord to get access to the script without a whitelist the script wont work you get multiple games and its 10 pounds lifetime"
 TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel.TextSize = 15.000
 TextLabel.TextWrapped = true
 TextLabel.TextYAlignment = Enum.TextYAlignment.Top
-
-TextLabel_2.Parent = MAINTENCE_2
-TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_2.BackgroundTransparency = 1.000
-TextLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_2.BorderSizePixel = 0
-TextLabel_2.Position = UDim2.new(0.0127797481, 0, 0.155925259, 0)
-TextLabel_2.Size = UDim2.new(0, 303, 0, 83)
-TextLabel_2.Font = Enum.Font.SourceSansSemibold
-TextLabel_2.Text = "This loadstring does not support solara how ever we do have a different loadstring for solara support in our discord but its on certain games which you can check in our server #status and get the solara support script in #scripts"
-TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_2.TextSize = 15.000
-TextLabel_2.TextWrapped = true
-TextLabel_2.TextYAlignment = Enum.TextYAlignment.Top
 
 Minimize.Name = "Minimize"
 Minimize.Parent = Draggable
@@ -181,7 +166,7 @@ TextButton.Parent = Draggable
 TextButton.BackgroundColor3 = Color3.fromRGB(85, 170, 255)
 TextButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton.BorderSizePixel = 0
-TextButton.Position = UDim2.new(0.303030312, 0, 2.98000002, 0)
+TextButton.Position = UDim2.new(0.324242413, 0, 2.01999998, 0)
 TextButton.Size = UDim2.new(0, 126, 0, 31)
 TextButton.Font = Enum.Font.SourceSansBold
 TextButton.Text = "CopyDiscord"
@@ -192,7 +177,7 @@ UICorner_4.Parent = TextButton
 
 -- Scripts:
 
-local function YIET_fake_script() -- Minimize.LocalScript 
+local function BWNT_fake_script() -- Minimize.LocalScript 
 	local script = Instance.new('LocalScript', Minimize)
 
 	script.Parent.MouseButton1Down:connect(function()
@@ -203,8 +188,8 @@ local function YIET_fake_script() -- Minimize.LocalScript
 	
 	end)
 end
-coroutine.wrap(YIET_fake_script)()
-local function CKLTPF_fake_script() -- Draggable.drag 
+coroutine.wrap(BWNT_fake_script)()
+local function EDRAV_fake_script() -- Draggable.drag 
 	local script = Instance.new('LocalScript', Draggable)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -261,12 +246,12 @@ local function CKLTPF_fake_script() -- Draggable.drag
 	
 	runService.Heartbeat:Connect(Update)
 end
-coroutine.wrap(CKLTPF_fake_script)()
-local function RVJLWK_fake_script() -- TextButton.LocalScript 
+coroutine.wrap(EDRAV_fake_script)()
+local function RCRPV_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
-		setclipboard('https://discord.gg/sdCSmXRjuX')
+		setclipboard('https://discord.gg/scripthub')
 	end)
 end
-coroutine.wrap(RVJLWK_fake_script)()
+coroutine.wrap(RCRPV_fake_script)()
